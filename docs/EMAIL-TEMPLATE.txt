@@ -1,0 +1,27 @@
+Subject: Denham & Grey website — complete hosting handover package
+
+Dear [Name],
+
+Please find attached the complete hosting handover package for the new Denham & Grey website.
+
+The package includes:
+
+- the full editable source code;
+- a validated production build;
+- all website images, fonts and leadership portraits stored locally;
+- technical setup and Cloudflare Workers deployment instructions;
+- a domain/DNS and launch checklist; and
+- a content and asset inventory.
+
+The current approved design can be viewed here:
+https://denham-and-grey.daviddenischinda.chatgpt.site
+
+Please deploy the package first to a temporary URL and share it with me for final quality assurance. Do not change the live www.denhamandgrey.com DNS until the temporary deployment has been approved.
+
+The recommended hosting route is Cloudflare Workers, because the supplied build and deployment configuration have been prepared for that environment. Please preserve all existing email-related DNS records during the domain cutover.
+
+Kindly confirm receipt and advise when the temporary deployment is ready for review.
+
+Best regards,
+David Chinda
+Denham & Grey Ltd

@@ -1,0 +1,49 @@
+{
+  "../../sites/denham-and-grey/node_modules/vinext/dist/shims/layout-segment-context.js": {
+    "file": "assets/layout-segment-context-DfXAYvDZ.js",
+    "name": "layout-segment-context",
+    "src": "../../sites/denham-and-grey/node_modules/vinext/dist/shims/layout-segment-context.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-S-ySWqyJ.js",
+      "virtual:vinext-app-browser-entry",
+      "_framework-XU8gKkFC.js"
+    ]
+  },
+  "_framework-XU8gKkFC.js": {
+    "file": "assets/framework-XU8gKkFC.js",
+    "name": "framework",
+    "imports": [
+      "_rolldown-runtime-S-ySWqyJ.js"
+    ]
+  },
+  "_rolldown-runtime-S-ySWqyJ.js": {
+    "file": "assets/rolldown-runtime-S-ySWqyJ.js",
+    "name": "rolldown-runtime"
+  },
+  "app/ScrollToTopOnLoad.tsx": {
+    "file": "assets/ScrollToTopOnLoad-Cj9ZOjGs.js",
+    "name": "ScrollToTopOnLoad",
+    "src": "app/ScrollToTopOnLoad.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-S-ySWqyJ.js",
+      "_framework-XU8gKkFC.js"
+    ]
+  },
+  "virtual:vinext-app-browser-entry": {
+    "file": "assets/index-CL9oCewo.js",
+    "name": "index",
+    "src": "virtual:vinext-app-browser-entry",
+    "isEntry": true,
+    "imports": [
+      "_rolldown-runtime-S-ySWqyJ.js",
+      "_framework-XU8gKkFC.js"
+    ],
+    "dynamicImports": [
+      "virtual:vinext-app-browser-entry",
+      "../../sites/denham-and-grey/node_modules/vinext/dist/shims/layout-segment-context.js",
+      "app/ScrollToTopOnLoad.tsx"
+    ]
+  }
+}

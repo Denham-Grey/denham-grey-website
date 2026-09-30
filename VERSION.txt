@@ -1,0 +1,6 @@
+Denham & Grey website IT handover
+Prepared: 2026-08-02
+Approved website version: 16
+Source revision: d19bacd7fe872ef947d6e9b1adeae8c0d2f6ab86
+Live reference: https://denham-and-grey.daviddenischinda.chatgpt.site
+Handover modification: leadership portraits stored locally for portable hosting
