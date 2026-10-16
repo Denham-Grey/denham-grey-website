@@ -77,7 +77,15 @@ const SystemIcon = ({ type }: { type: string }) => {
   }
 
   return (
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+    <svg
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="1.7"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      aria-hidden="true"
+    >
       {artwork}
     </svg>
   );
@@ -87,37 +95,44 @@ const operatingSystems = [
   {
     id: "crms",
     name: "D&G CRMS",
-    description: "Manages partner engagement, onboarding records and relationship stewardship.",
+    description:
+      "Manages partner engagement, onboarding records and relationship stewardship.",
   },
   {
     id: "credit",
     name: "FI Internal Credit Rating Platform",
-    description: "Scores institutional strength, creditworthiness and risk appetite.",
+    description:
+      "Scores institutional strength, creditworthiness and risk appetite.",
   },
   {
     id: "green",
     name: "Green Rating Platform",
-    description: "Tests green eligibility and the environmental integrity of financed activities.",
+    description:
+      "Tests green eligibility and the environmental integrity of financed activities.",
   },
   {
     id: "portfolio",
     name: "Portfolio Monitoring Platform",
-    description: "Tracks utilisation, portfolio quality, covenants and early-warning signals.",
+    description:
+      "Tracks utilisation, portfolio quality, covenants and early-warning signals.",
   },
   {
     id: "aml",
     name: "AML Screening & Monitoring Platform",
-    description: "Screens counterparties and monitors financial crime risk throughout the facility.",
+    description:
+      "Screens counterparties and monitors financial crime risk throughout the facility.",
   },
   {
     id: "impact",
     name: "Impact Monitoring & Reporting Platform",
-    description: "Captures climate, inclusion and enterprise outcomes for auditable reporting.",
+    description:
+      "Captures climate, inclusion and enterprise outcomes for auditable reporting.",
   },
   {
     id: "academy",
     name: "Green Academy Learning Platform",
-    description: "Builds and certifies PFI capability through structured digital learning.",
+    description:
+      "Builds and certifies PFI capability through structured digital learning.",
   },
 ];
 
@@ -284,6 +299,13 @@ export default function Home() {
           <a href="#people">Our People</a>
           <a href="#focus">Focus</a>
           <a href="#impact">Impact</a>
+          <a
+            href="https://terminal.denhamgrey.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Terminal
+          </a>
         </nav>
         <a className="investor-link" href="#partners">
           Investor relations <Arrow />
@@ -356,7 +378,10 @@ export default function Home() {
               <div className="flow-origin">
                 <p className="flow-role">Patient capital provider</p>
                 <h3>Denham &amp; Grey</h3>
-                <p>Long-term capital, disciplined structuring and impact alignment</p>
+                <p>
+                  Long-term capital, disciplined structuring and impact
+                  alignment
+                </p>
               </div>
 
               <div className="flow-spine flow-line" aria-hidden="true">
@@ -364,7 +389,9 @@ export default function Home() {
               </div>
 
               <div className="flow-tier flow-tier-partners">
-                <p className="flow-tier-label">Partner financial institutions</p>
+                <p className="flow-tier-label">
+                  Partner financial institutions
+                </p>
                 <div className="institution-grid">
                   <article>
                     <span className="institution-mark">CB</span>
@@ -382,10 +409,22 @@ export default function Home() {
                     <span className="institution-mark">FC</span>
                     <h4>Finance companies</h4>
                   </article>
-                  <i className="flow-branch-pulse inbound-pulse inbound-pulse-1" aria-hidden="true" />
-                  <i className="flow-branch-pulse inbound-pulse inbound-pulse-2" aria-hidden="true" />
-                  <i className="flow-branch-pulse inbound-pulse inbound-pulse-3" aria-hidden="true" />
-                  <i className="flow-branch-pulse inbound-pulse inbound-pulse-4" aria-hidden="true" />
+                  <i
+                    className="flow-branch-pulse inbound-pulse inbound-pulse-1"
+                    aria-hidden="true"
+                  />
+                  <i
+                    className="flow-branch-pulse inbound-pulse inbound-pulse-2"
+                    aria-hidden="true"
+                  />
+                  <i
+                    className="flow-branch-pulse inbound-pulse inbound-pulse-3"
+                    aria-hidden="true"
+                  />
+                  <i
+                    className="flow-branch-pulse inbound-pulse inbound-pulse-4"
+                    aria-hidden="true"
+                  />
                 </div>
               </div>
 
@@ -399,7 +438,9 @@ export default function Home() {
               </div>
 
               <div className="flow-tier flow-tier-beneficiaries">
-                <p className="flow-tier-label beneficiary-tier-label">Beneficiaries</p>
+                <p className="flow-tier-label beneficiary-tier-label">
+                  Beneficiaries
+                </p>
                 <div className="beneficiary-grid">
                   <div className="beneficiary-path">
                     <div className="beneficiary-branch" aria-hidden="true">
@@ -429,12 +470,16 @@ export default function Home() {
                         <p>Inclusive enterprise</p>
                         <h4>Women-owned businesses</h4>
                         <small>
-                          Working capital, productive assets and enterprise growth
+                          Working capital, productive assets and enterprise
+                          growth
                         </small>
                       </div>
                     </article>
                   </div>
-                  <i className="flow-branch-pulse final-group-pulse" aria-hidden="true" />
+                  <i
+                    className="flow-branch-pulse final-group-pulse"
+                    aria-hidden="true"
+                  />
                 </div>
               </div>
 
@@ -442,7 +487,8 @@ export default function Home() {
                 <span aria-hidden="true">↓</span>
                 <p>
                   Partner institutions originate, assess and on-lend—turning
-                  patient capital into measurable climate and inclusion outcomes.
+                  patient capital into measurable climate and inclusion
+                  outcomes.
                 </p>
               </div>
             </div>
@@ -463,7 +509,10 @@ export default function Home() {
             </p>
           </div>
 
-          <ol className="process-timeline" aria-label="Partner financial institution onboarding process">
+          <ol
+            className="process-timeline"
+            aria-label="Partner financial institution onboarding process"
+          >
             {onboardingSteps.map((step) => (
               <li key={step.number}>
                 <div className="process-node" aria-hidden="true">
@@ -475,11 +524,16 @@ export default function Home() {
                     <h3>{step.title}</h3>
                     <p className="process-description">{step.description}</p>
                   </div>
-                  <div className="process-tools" aria-label={`Platforms used during ${step.title}`}>
+                  <div
+                    className="process-tools"
+                    aria-label={`Platforms used during ${step.title}`}
+                  >
                     <span>Platforms in operation</span>
                     <div className="process-tool-list">
                       {step.platforms.map((platformId) => {
-                        const system = operatingSystems.find((item) => item.id === platformId);
+                        const system = operatingSystems.find(
+                          (item) => item.id === platformId,
+                        );
 
                         return system ? (
                           <div className="process-tool" key={system.id}>
@@ -535,7 +589,9 @@ export default function Home() {
                           loading="lazy"
                         />
                       ) : (
-                        <div className="profile-mark" aria-hidden="true">{profile.initials}</div>
+                        <div className="profile-mark" aria-hidden="true">
+                          {profile.initials}
+                        </div>
                       )}
                       <div>
                         <h4>{profile.name}</h4>
@@ -557,9 +613,9 @@ export default function Home() {
             <h2>Two priorities. One inclusive future.</h2>
           </div>
           <p>
-            Our mandate directs capital toward climate solutions and
-            women-owned enterprises—two powerful engines of resilience,
-            productivity and shared prosperity.
+            Our mandate directs capital toward climate solutions and women-owned
+            enterprises—two powerful engines of resilience, productivity and
+            shared prosperity.
           </p>
         </div>
 
@@ -589,8 +645,8 @@ export default function Home() {
               <h3>Women-owned businesses</h3>
               <p>
                 Capital that helps financial institutions serve women
-                entrepreneurs with products designed for growth, resilience
-                and long-term value creation.
+                entrepreneurs with products designed for growth, resilience and
+                long-term value creation.
               </p>
               <div className="tag-list" aria-label="Women enterprise themes">
                 <span>Working capital</span>
@@ -609,9 +665,9 @@ export default function Home() {
             <p className="section-kicker">Impact discipline</p>
             <h2>Impact is part of the underwriting.</h2>
             <p>
-              We connect capital decisions to measurable outcomes, working
-              with partner institutions to define, monitor and report the
-              change created by every portfolio.
+              We connect capital decisions to measurable outcomes, working with
+              partner institutions to define, monitor and report the change
+              created by every portfolio.
             </p>
           </div>
 
@@ -624,17 +680,25 @@ export default function Home() {
             <article>
               <span>Inclusion</span>
               <h3>Women reached</h3>
-              <p>Financing delivered to women-owned and women-led businesses.</p>
+              <p>
+                Financing delivered to women-owned and women-led businesses.
+              </p>
             </article>
             <article>
               <span>Prosperity</span>
               <h3>Enterprise growth</h3>
-              <p>Jobs supported, productive assets financed and incomes strengthened.</p>
+              <p>
+                Jobs supported, productive assets financed and incomes
+                strengthened.
+              </p>
             </article>
             <article>
               <span>Systems</span>
               <h3>Institutional capacity</h3>
-              <p>Stronger green and gender-lens lending within partner institutions.</p>
+              <p>
+                Stronger green and gender-lens lending within partner
+                institutions.
+              </p>
             </article>
           </div>
         </div>
@@ -724,7 +788,9 @@ export default function Home() {
           <a href="#impact">Impact</a>
           <a href="#contact">Contact</a>
         </nav>
-        <p className="copyright">© {new Date().getFullYear()} Denham &amp; Grey</p>
+        <p className="copyright">
+          © {new Date().getFullYear()} Denham &amp; Grey
+        </p>
       </footer>
     </main>
   );
