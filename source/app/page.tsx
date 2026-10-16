@@ -300,7 +300,7 @@ export default function Home() {
           <a href="#focus">Focus</a>
           <a href="#impact">Impact</a>
           <a
-            href="https://terminal.denhamgrey.com"
+            href="https://terminal.denhamandgrey.com/"
             target="_blank"
             rel="noopener noreferrer"
           >
