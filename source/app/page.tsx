@@ -106,7 +106,7 @@ const operatingSystems = [
   },
   {
     id: "green",
-    name: "Green Rating Platform",
+    name: "Sustainability Rating Platform",
     description:
       "Tests green eligibility and the environmental integrity of financed activities.",
   },
@@ -134,6 +134,12 @@ const operatingSystems = [
     description:
       "Builds and certifies PFI capability through structured digital learning.",
   },
+  {
+    id: "onboarding",
+    name: "Onboarding Due Diligence Platform",
+    description:
+      "Facilitates the onboarding process for new partners and stakeholders.",
+  },
 ];
 
 const onboardingSteps = [
@@ -151,7 +157,7 @@ const onboardingSteps = [
     title: "Institutional due diligence",
     description:
       "We assess governance, regulatory standing, financial strength, credit systems and portfolio performance.",
-    platforms: ["credit", "aml"],
+    platforms: ["onboarding", "aml"],
   },
   {
     number: "03",
@@ -164,10 +170,10 @@ const onboardingSteps = [
   {
     number: "04",
     label: "Structure",
-    title: "Facility structuring",
+    title: "Faculty Structure and Disbursement",
     description:
       "We agree facility size, tenor, pricing, security, covenants and the practical terms for responsible on-lending.",
-    platforms: ["credit", "portfolio"],
+    platforms: ["portfolio"],
   },
   {
     number: "05",
@@ -175,7 +181,7 @@ const onboardingSteps = [
     title: "Approval and onboarding",
     description:
       "Investment approval, legal documentation, operating procedures and reporting arrangements are completed.",
-    platforms: ["aml", "academy"],
+    platforms: [],
   },
   {
     number: "06",
@@ -183,7 +189,7 @@ const onboardingSteps = [
     title: "Deployment and stewardship",
     description:
       "Capital is deployed with ongoing portfolio monitoring, impact reporting and targeted capacity building.",
-    platforms: ["portfolio", "aml", "green", "impact", "academy", "crms"],
+    platforms: ["portfolio", "aml", "impact", "academy"],
   },
 ];
 
@@ -291,7 +297,7 @@ export default function Home() {
       <ScrollToTopOnLoad />
       <header className="site-header" aria-label="Main navigation">
         <a className="wordmark" href="#top" aria-label="Denham and Grey home">
-          Denham &amp; Grey
+          Denham + Grey
         </a>
         <nav className="desktop-nav" aria-label="Primary">
           <a href="#model">Our Model</a>
