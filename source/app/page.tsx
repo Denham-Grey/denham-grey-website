@@ -1,3 +1,4 @@
+import PeopleSection from "./PeopleSection";
 import ScrollToTopOnLoad from "./ScrollToTopOnLoad";
 
 const Arrow = () => <span aria-hidden="true">↗</span>;
@@ -170,7 +171,7 @@ const onboardingSteps = [
   {
     number: "04",
     label: "Structure",
-    title: "Faculty Structure and Disbursement",
+    title: "Facility Structure and Disbursement",
     description:
       "We agree facility size, tenor, pricing, security, covenants and the practical terms for responsible on-lending.",
     platforms: ["portfolio"],
@@ -190,104 +191,6 @@ const onboardingSteps = [
     description:
       "Capital is deployed with ongoing portfolio monitoring, impact reporting and targeted capacity building.",
     platforms: ["portfolio", "aml", "impact", "academy"],
-  },
-];
-
-const peopleGroups = [
-  {
-    number: "01",
-    label: "Governance and oversight",
-    title: "Board of Directors",
-    description:
-      "Independent oversight spanning institutional governance, investment, risk and measurable impact.",
-    profiles: [
-      {
-        name: "Shehu Jafiya",
-        title: "Chairman and Independent Director",
-        initials: "SJ",
-        image: "/people/shehu.svg",
-      },
-      {
-        name: "David Chinda",
-        title: "Managing Director",
-        initials: "DC",
-        image: "/people/david.svg",
-      },
-      {
-        name: "Kazeem Abdulrasheed Olanrewaju",
-        title: "Independent Non-Executive Director",
-        initials: "KO",
-        image: "/people/kazeem.svg",
-      },
-      {
-        name: "Sadiya El-Rufai",
-        title: "Independent Non-Executive Director",
-        initials: "SE",
-        image: "/people/sadiat.svg",
-      },
-      {
-        name: "Dauda Madubu Milgwe",
-        title: "Non-Executive Director",
-        initials: "DM",
-        image: "/people/dauda.svg",
-      },
-      {
-        name: "Dr Babangida Yohanna Kure",
-        title: "Non-Executive Director",
-        initials: "BK",
-        image: "/people/kure.svg",
-      },
-      {
-        name: "Victor Onoja Victor",
-        title: "Non-Executive Director",
-        initials: "VV",
-        image: "/people/victor.svg",
-      },
-    ],
-  },
-  {
-    number: "02",
-    label: "Execution and stewardship",
-    title: "Management Team",
-    description:
-      "Leadership across development finance, investments, portfolio management, impact and partnerships.",
-    profiles: [
-      {
-        name: "David Chinda",
-        title: "Managing Director",
-        initials: "DC",
-        image: "/people/david.svg",
-      },
-      {
-        name: "Bamidele Ibine FCA",
-        title: "Chief Risk Officer",
-        initials: "BI",
-        image: "/people/bami.svg",
-      },
-      {
-        name: "Awa Michael",
-        title: "Head, Internal Audit, Control and Compliance",
-        initials: "AM",
-        image: "/people/awa.svg",
-      },
-      {
-        name: "Daniel Ijudai Denis",
-        title: "Head, Human Resources and Administration",
-        initials: "DD",
-        image: "/people/daniel.svg",
-      },
-      {
-        name: "Sunday Ojo",
-        title: "Climate Change and Sustainability Specialist",
-        initials: "SO",
-      },
-      {
-        name: "Olayinka Olaiya",
-        title: "Technical Assistant",
-        initials: "OO",
-        image: "/people/Olayinka_Olaiya.png",
-      },
-    ],
   },
 ];
 
@@ -562,55 +465,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="people-section" id="people">
-        <div className="section-shell people-inner">
-          <div className="people-heading">
-            <p className="section-kicker section-kicker-light">Our people</p>
-            <h2>Development Finance meets Banking Expertise.</h2>
-            <p>
-              A governance and management structure built for patient capital,
-              responsible risk-taking and enduring institutional partnerships.
-            </p>
-          </div>
-
-          <div className="people-groups">
-            {peopleGroups.map((group) => (
-              <section className="people-group" key={group.title}>
-                <header>
-                  <span>{group.number}</span>
-                  <div>
-                    <p>{group.label}</p>
-                    <h3>{group.title}</h3>
-                    <small>{group.description}</small>
-                  </div>
-                </header>
-                <div className="people-roster">
-                  {group.profiles.map((profile) => (
-                    <article key={`${group.title}-${profile.name}`}>
-                      {profile.image ? (
-                        <img
-                          className="profile-photo"
-                          src={profile.image}
-                          alt={`${profile.name}, ${profile.title}`}
-                          loading="lazy"
-                        />
-                      ) : (
-                        <div className="profile-mark" aria-hidden="true">
-                          {profile.initials}
-                        </div>
-                      )}
-                      <div>
-                        <h4>{profile.name}</h4>
-                        <p>{profile.title}</p>
-                      </div>
-                    </article>
-                  ))}
-                </div>
-              </section>
-            ))}
-          </div>
-        </div>
-      </section>
+      <PeopleSection />
 
       <section className="focus section-shell" id="focus">
         <div className="section-heading-row">

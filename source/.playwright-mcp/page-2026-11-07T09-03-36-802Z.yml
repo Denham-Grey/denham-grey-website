@@ -1,0 +1,401 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic "Main navigation" [ref=e3]:
+      - link "Denham and Grey home" [ref=e4] [cursor=pointer]:
+        - /url: "#top"
+        - text: Denham + Grey
+      - navigation "Primary" [ref=e5]:
+        - link "Our Model" [ref=e6] [cursor=pointer]:
+          - /url: "#model"
+        - link "Our Process" [ref=e7] [cursor=pointer]:
+          - /url: "#process"
+        - link "Our People" [ref=e8] [cursor=pointer]:
+          - /url: "#people"
+        - link "Focus" [ref=e9] [cursor=pointer]:
+          - /url: "#focus"
+        - link "Impact" [ref=e10] [cursor=pointer]:
+          - /url: "#impact"
+        - link "Terminal" [ref=e11] [cursor=pointer]:
+          - /url: https://terminal.denhamandgrey.com/
+      - link "Investor relations" [ref=e12] [cursor=pointer]:
+        - /url: "#partners"
+        - text: Investor relations
+        - generic [aria-hidden] [ref=e13]: ↗
+    - generic [ref=e14]:
+      - generic [ref=e15]:
+        - paragraph [ref=e16]: Impact capital for an inclusive, climate-resilient Africa
+        - heading "Patient capital. Enduring impact." [level=1] [ref=e17]: Patient capital.Enduring impact.
+        - paragraph [ref=e18]: We equip financial institutions with long-term capital to finance green projects and women-owned businesses at scale.
+        - generic [ref=e19]:
+          - link "Partner with us" [ref=e20] [cursor=pointer]:
+            - /url: "#partners"
+            - text: Partner with us
+            - generic [aria-hidden] [ref=e21]: ↗
+          - link "Explore our model" [ref=e22] [cursor=pointer]:
+            - /url: "#model"
+            - text: Explore our model
+            - generic [aria-hidden] [ref=e23]: ↗
+      - generic [ref=e24]:
+        - img "Layered African landscape with luminous pathways representing patient capital flowing into the real economy" [ref=e25]
+        - generic [ref=e26]:
+          - generic [ref=e27]: Private Capital,
+          - strong [ref=e28]: Public Benefit.
+    - generic [ref=e29]:
+      - generic [ref=e31]:
+        - paragraph [ref=e32]: Our Model
+        - heading "Capital that moves through trusted local institutions." [level=2] [ref=e33]
+      - 'img "Capital flows from Denham and Grey to commercial banks, microfinance banks, non-interest banks and finance companies, which on-lend to beneficiaries: green projects and women-owned businesses." [ref=e36]':
+        - generic [ref=e37]:
+          - paragraph [ref=e38]: Patient capital provider
+          - heading "Denham & Grey" [level=3] [ref=e39]
+          - paragraph [ref=e40]: Long-term capital, disciplined structuring and impact alignment
+        - generic [aria-hidden] [ref=e41]: ↓
+        - generic [ref=e42]:
+          - paragraph [ref=e43]: Partner financial institutions
+          - generic [ref=e44]:
+            - article [ref=e45]:
+              - generic [ref=e46]: CB
+              - heading "Commercial banks" [level=4] [ref=e47]
+            - article [ref=e48]:
+              - generic [ref=e49]: MFB
+              - heading "Microfinance banks" [level=4] [ref=e50]
+            - article [ref=e51]:
+              - generic [ref=e52]: NIB
+              - heading "Non-interest banks" [level=4] [ref=e53]
+            - article [ref=e54]:
+              - generic [ref=e55]: FC
+              - heading "Finance companies" [level=4] [ref=e56]
+        - generic [ref=e62]: ↓
+        - generic [ref=e63]:
+          - paragraph [ref=e64]: Beneficiaries
+          - generic [ref=e65]:
+            - generic [ref=e66]:
+              - generic [ref=e68]: ↓
+              - article [ref=e69]:
+                - generic [ref=e70]: "01"
+                - generic [ref=e71]:
+                  - paragraph [ref=e72]: Climate transition
+                  - heading "Green projects" [level=4] [ref=e73]
+                  - text: Renewable energy, energy efficiency, climate-smart agriculture, water and circular economy
+            - generic [ref=e74]:
+              - generic [ref=e76]: ↓
+              - article [ref=e77]:
+                - generic [ref=e78]: "02"
+                - generic [ref=e79]:
+                  - paragraph [ref=e80]: Inclusive enterprise
+                  - heading "Women-owned businesses" [level=4] [ref=e81]
+                  - text: Working capital, productive assets and enterprise growth
+        - generic [ref=e82]:
+          - generic [aria-hidden] [ref=e83]: ↓
+          - paragraph [ref=e84]: Partner institutions originate, assess and on-lend—turning patient capital into measurable climate and inclusion outcomes.
+    - generic [ref=e86]:
+      - generic [ref=e87]:
+        - generic [ref=e88]:
+          - paragraph [ref=e89]: Our process
+          - heading "From first conversation to disciplined deployment." [level=2] [ref=e90]
+        - paragraph [ref=e91]: A controlled investment pathway supported by seven integrated platforms for underwriting, onboarding and portfolio stewardship.
+      - list "Partner financial institution onboarding process" [ref=e92]:
+        - listitem [ref=e93]:
+          - generic [ref=e95]: "01"
+          - article [ref=e96]:
+            - generic [ref=e97]:
+              - paragraph [ref=e98]: Engage
+              - heading "Initial engagement" [level=3] [ref=e99]
+              - paragraph [ref=e100]: We establish strategic fit, understand funding needs and define the institution’s readiness pathway.
+            - generic "Platforms used during Initial engagement" [ref=e101]:
+              - generic [ref=e102]: Platforms in operation
+              - generic [ref=e111]:
+                - heading "D&G CRMS" [level=4] [ref=e112]
+                - paragraph [ref=e113]: Manages partner engagement, onboarding records and relationship stewardship.
+        - listitem [ref=e114]:
+          - generic [ref=e116]: "02"
+          - article [ref=e117]:
+            - generic [ref=e118]:
+              - paragraph [ref=e119]: Assess
+              - heading "Institutional due diligence" [level=3] [ref=e120]
+              - paragraph [ref=e121]: We assess governance, regulatory standing, financial strength, credit systems and portfolio performance.
+            - generic "Platforms used during Institutional due diligence" [ref=e122]:
+              - generic [ref=e123]: Platforms in operation
+              - generic [ref=e124]:
+                - generic [ref=e132]:
+                  - heading "Onboarding Due Diligence Platform" [level=4] [ref=e133]
+                  - paragraph [ref=e134]: Facilitates the onboarding process for new partners and stakeholders.
+                - generic [ref=e142]:
+                  - heading "AML Screening & Monitoring Platform" [level=4] [ref=e143]
+                  - paragraph [ref=e144]: Screens counterparties and monitors financial crime risk throughout the facility.
+        - listitem [ref=e145]:
+          - generic [ref=e147]: "03"
+          - article [ref=e148]:
+            - generic [ref=e149]:
+              - paragraph [ref=e150]: Design
+              - heading "Portfolio and impact design" [level=3] [ref=e151]
+              - paragraph [ref=e152]: Together, we define eligible green and women-focused segments, pipeline expectations and impact indicators.
+            - generic "Platforms used during Portfolio and impact design" [ref=e153]:
+              - generic [ref=e154]: Platforms in operation
+              - generic [ref=e155]:
+                - generic [ref=e162]:
+                  - heading "Sustainability Rating Platform" [level=4] [ref=e163]
+                  - paragraph [ref=e164]: Tests green eligibility and the environmental integrity of financed activities.
+                - generic [ref=e173]:
+                  - heading "Impact Monitoring & Reporting Platform" [level=4] [ref=e174]
+                  - paragraph [ref=e175]: Captures climate, inclusion and enterprise outcomes for auditable reporting.
+        - listitem [ref=e176]:
+          - generic [ref=e178]: "04"
+          - article [ref=e179]:
+            - generic [ref=e180]:
+              - paragraph [ref=e181]: Structure
+              - heading "Facility Structure and Disbursement" [level=3] [ref=e182]
+              - paragraph [ref=e183]: We agree facility size, tenor, pricing, security, covenants and the practical terms for responsible on-lending.
+            - generic "Platforms used during Facility Structure and Disbursement" [ref=e184]:
+              - generic [ref=e185]: Platforms in operation
+              - generic [ref=e194]:
+                - heading "Portfolio Monitoring Platform" [level=4] [ref=e195]
+                - paragraph [ref=e196]: Tracks utilisation, portfolio quality, covenants and early-warning signals.
+        - listitem [ref=e197]:
+          - generic [ref=e199]: "05"
+          - article [ref=e200]:
+            - generic [ref=e201]:
+              - paragraph [ref=e202]: Approve
+              - heading "Approval and onboarding" [level=3] [ref=e203]
+              - paragraph [ref=e204]: Investment approval, legal documentation, operating procedures and reporting arrangements are completed.
+            - generic "Platforms used during Approval and onboarding" [ref=e205]: Platforms in operation
+        - listitem [ref=e207]:
+          - generic [ref=e209]: "06"
+          - article [ref=e210]:
+            - generic [ref=e211]:
+              - paragraph [ref=e212]: Steward
+              - heading "Deployment and stewardship" [level=3] [ref=e213]
+              - paragraph [ref=e214]: Capital is deployed with ongoing portfolio monitoring, impact reporting and targeted capacity building.
+            - generic "Platforms used during Deployment and stewardship" [ref=e215]:
+              - generic [ref=e216]: Platforms in operation
+              - generic [ref=e217]:
+                - generic [ref=e225]:
+                  - heading "Portfolio Monitoring Platform" [level=4] [ref=e226]
+                  - paragraph [ref=e227]: Tracks utilisation, portfolio quality, covenants and early-warning signals.
+                - generic [ref=e235]:
+                  - heading "AML Screening & Monitoring Platform" [level=4] [ref=e236]
+                  - paragraph [ref=e237]: Screens counterparties and monitors financial crime risk throughout the facility.
+                - generic [ref=e246]:
+                  - heading "Impact Monitoring & Reporting Platform" [level=4] [ref=e247]
+                  - paragraph [ref=e248]: Captures climate, inclusion and enterprise outcomes for auditable reporting.
+                - generic [ref=e256]:
+                  - heading "Green Academy Learning Platform" [level=4] [ref=e257]
+                  - paragraph [ref=e258]: Builds and certifies PFI capability through structured digital learning.
+    - generic [ref=e260]:
+      - generic [ref=e261]:
+        - paragraph [ref=e262]: Our people
+        - heading "Development Finance meets Banking Expertise." [level=2] [ref=e263]
+        - paragraph [ref=e264]: A governance and management structure built for patient capital, responsible risk-taking and enduring institutional partnerships.
+      - generic [ref=e265]:
+        - generic [ref=e266]:
+          - generic [ref=e267]:
+            - generic [ref=e268]: "01"
+            - generic [ref=e269]:
+              - paragraph [ref=e270]: Governance and oversight
+              - heading "Board of Directors" [level=3] [ref=e271]
+              - generic [ref=e272]: Independent oversight spanning institutional governance, investment, risk and measurable impact.
+          - generic [ref=e273]:
+            - article [ref=e274]:
+              - img "Shehu Jafiya, Chairman and Independent Director" [ref=e275]
+              - generic [ref=e276]:
+                - heading "Shehu Jafiya" [level=4] [ref=e277]
+                - paragraph [ref=e278]: Chairman and Independent Director
+            - article [ref=e279]:
+              - button "David Chinda, Managing Director David Chinda Managing Director View profile" [ref=e280] [cursor=pointer]:
+                - img "David Chinda, Managing Director" [ref=e281]
+                - generic [ref=e282]:
+                  - heading "David Chinda" [level=4] [ref=e283]
+                  - paragraph [ref=e284]: Managing Director
+                - generic [ref=e285]: View profile ↗
+            - article [ref=e286]:
+              - img "Kazeem Abdulrasheed Olanrewaju, Independent Non-Executive Director" [ref=e287]
+              - generic [ref=e288]:
+                - heading "Kazeem Abdulrasheed Olanrewaju" [level=4] [ref=e289]
+                - paragraph [ref=e290]: Independent Non-Executive Director
+            - article [ref=e291]:
+              - img "Sadiya El-Rufai, Independent Non-Executive Director" [ref=e292]
+              - generic [ref=e293]:
+                - heading "Sadiya El-Rufai" [level=4] [ref=e294]
+                - paragraph [ref=e295]: Independent Non-Executive Director
+            - article [ref=e296]:
+              - img "Dauda Madubu Milgwe, Non-Executive Director" [ref=e297]
+              - generic [ref=e298]:
+                - heading "Dauda Madubu Milgwe" [level=4] [ref=e299]
+                - paragraph [ref=e300]: Non-Executive Director
+            - article [ref=e301]:
+              - img "Dr Babangida Yohanna Kure, Non-Executive Director" [ref=e302]
+              - generic [ref=e303]:
+                - heading "Dr Babangida Yohanna Kure" [level=4] [ref=e304]
+                - paragraph [ref=e305]: Non-Executive Director
+            - article [ref=e306]:
+              - img "Victor Onoja Victor, Non-Executive Director" [ref=e307]
+              - generic [ref=e308]:
+                - heading "Victor Onoja Victor" [level=4] [ref=e309]
+                - paragraph [ref=e310]: Non-Executive Director
+        - generic [ref=e311]:
+          - generic [ref=e312]:
+            - generic [ref=e313]: "02"
+            - generic [ref=e314]:
+              - paragraph [ref=e315]: Execution and stewardship
+              - heading "Management Team" [level=3] [ref=e316]
+              - generic [ref=e317]: Leadership across development finance, investments, portfolio management, impact and partnerships.
+          - generic [ref=e318]:
+            - article [ref=e319]:
+              - button "David Chinda, Managing Director David Chinda Managing Director View profile" [ref=e320] [cursor=pointer]:
+                - img "David Chinda, Managing Director" [ref=e321]
+                - generic [ref=e322]:
+                  - heading "David Chinda" [level=4] [ref=e323]
+                  - paragraph [ref=e324]: Managing Director
+                - generic [ref=e325]: View profile ↗
+            - article [ref=e326]:
+              - button "Bamidele Ibine FCA, Chief Risk Officer Bamidele Ibine FCA Chief Risk Officer View profile" [ref=e327] [cursor=pointer]:
+                - img "Bamidele Ibine FCA, Chief Risk Officer" [ref=e328]
+                - generic [ref=e329]:
+                  - heading "Bamidele Ibine FCA" [level=4] [ref=e330]
+                  - paragraph [ref=e331]: Chief Risk Officer
+                - generic [ref=e332]: View profile ↗
+            - article [ref=e333]:
+              - button "Awa Michael, Head, Internal Audit, Control and Compliance Awa Michael Head, Internal Audit, Control and Compliance View profile" [ref=e334] [cursor=pointer]:
+                - img "Awa Michael, Head, Internal Audit, Control and Compliance" [ref=e335]
+                - generic [ref=e336]:
+                  - heading "Awa Michael" [level=4] [ref=e337]
+                  - paragraph [ref=e338]: Head, Internal Audit, Control and Compliance
+                - generic [ref=e339]: View profile ↗
+            - article [ref=e340]:
+              - button "Daniel Ijudai Denis, Head, Human Resources and Administration Daniel Ijudai Denis Head, Human Resources and Administration View profile" [ref=e341] [cursor=pointer]:
+                - img "Daniel Ijudai Denis, Head, Human Resources and Administration" [ref=e342]
+                - generic [ref=e343]:
+                  - heading "Daniel Ijudai Denis" [level=4] [ref=e344]
+                  - paragraph [ref=e345]: Head, Human Resources and Administration
+                - generic [ref=e346]: View profile ↗
+            - article [ref=e347]:
+              - button "Sunday Ojo Climate Change and Sustainability Specialist View profile" [ref=e348] [cursor=pointer]:
+                - generic [aria-hidden] [ref=e349]: SO
+                - generic [ref=e350]:
+                  - heading "Sunday Ojo" [level=4] [ref=e351]
+                  - paragraph [ref=e352]: Climate Change and Sustainability Specialist
+                - generic [ref=e353]: View profile ↗
+            - article [ref=e354]:
+              - button "Olayinka Olaiya, Technical Assistant Olayinka Olaiya Technical Assistant View profile" [ref=e355] [cursor=pointer]:
+                - img "Olayinka Olaiya, Technical Assistant" [ref=e356]
+                - generic [ref=e357]:
+                  - heading "Olayinka Olaiya" [level=4] [ref=e358]
+                  - paragraph [ref=e359]: Technical Assistant
+                - generic [ref=e360]: View profile ↗
+            - article [ref=e361]:
+              - button "Peter Michael Credit Risk Analyst View profile" [ref=e362] [cursor=pointer]:
+                - generic [aria-hidden] [ref=e363]: PM
+                - generic [ref=e364]:
+                  - heading "Peter Michael" [level=4] [ref=e365]
+                  - paragraph [ref=e366]: Credit Risk Analyst
+                - generic [ref=e367]: View profile ↗
+    - generic [ref=e368]:
+      - generic [ref=e369]:
+        - generic [ref=e370]:
+          - paragraph [ref=e371]: Investment focus
+          - heading "Two priorities. One inclusive future." [level=2] [ref=e372]
+        - paragraph [ref=e373]: Our mandate directs capital toward climate solutions and women-owned enterprises—two powerful engines of resilience, productivity and shared prosperity.
+      - generic [ref=e374]:
+        - article [ref=e375]:
+          - generic [ref=e376]: "01"
+          - generic [ref=e377]:
+            - paragraph [ref=e378]: Climate transition
+            - heading "Green projects" [level=3] [ref=e379]
+            - paragraph [ref=e380]: Financing for practical solutions that expand clean energy, improve resource efficiency and strengthen climate resilience.
+            - generic "Green investment themes" [ref=e381]:
+              - generic [ref=e382]: Renewable energy
+              - generic [ref=e383]: Energy efficiency
+              - generic [ref=e384]: Climate-smart agriculture
+              - generic [ref=e385]: Water & circular economy
+        - article [ref=e386]:
+          - generic [ref=e387]: "02"
+          - generic [ref=e388]:
+            - paragraph [ref=e389]: Inclusive enterprise
+            - heading "Women-owned businesses" [level=3] [ref=e390]
+            - paragraph [ref=e391]: Capital that helps financial institutions serve women entrepreneurs with products designed for growth, resilience and long-term value creation.
+            - generic "Women enterprise themes" [ref=e392]:
+              - generic [ref=e393]: Working capital
+              - generic [ref=e394]: Productive assets
+              - generic [ref=e395]: Enterprise growth
+              - generic [ref=e396]: Market access
+    - generic [ref=e398]:
+      - generic [ref=e399]:
+        - paragraph [ref=e400]: Impact discipline
+        - heading "Impact is part of the underwriting." [level=2] [ref=e401]
+        - paragraph [ref=e402]: We connect capital decisions to measurable outcomes, working with partner institutions to define, monitor and report the change created by every portfolio.
+      - generic [ref=e403]:
+        - article [ref=e404]:
+          - generic [ref=e405]: Climate
+          - heading "Avoided emissions" [level=3] [ref=e406]
+          - paragraph [ref=e407]: Energy access, clean generation and resource efficiency.
+        - article [ref=e408]:
+          - generic [ref=e409]: Inclusion
+          - heading "Women reached" [level=3] [ref=e410]
+          - paragraph [ref=e411]: Financing delivered to women-owned and women-led businesses.
+        - article [ref=e412]:
+          - generic [ref=e413]: Prosperity
+          - heading "Enterprise growth" [level=3] [ref=e414]
+          - paragraph [ref=e415]: Jobs supported, productive assets financed and incomes strengthened.
+        - article [ref=e416]:
+          - generic [ref=e417]: Systems
+          - heading "Institutional capacity" [level=3] [ref=e418]
+          - paragraph [ref=e419]: Stronger green and gender-lens lending within partner institutions.
+    - generic [ref=e420]:
+      - generic [ref=e421]:
+        - generic [ref=e422]:
+          - paragraph [ref=e423]: Partner with us
+          - heading "Partnerships built around aligned ambition." [level=2] [ref=e424]
+        - paragraph [ref=e425]: We collaborate with institutions that want patient capital to do more—financially, environmentally and socially.
+      - generic [ref=e426]:
+        - article [ref=e427]:
+          - paragraph [ref=e428]: For financial institutions
+          - heading "Extend your ability to finance the future." [level=3] [ref=e429]
+          - paragraph [ref=e430]: Work with us to build longer-tenor green and gender-lens lending portfolios tailored to your market and customers.
+        - article [ref=e431]:
+          - paragraph [ref=e432]: For capital partners
+          - heading "Reach high-impact markets through local institutions." [level=3] [ref=e433]
+          - paragraph [ref=e434]: Align your capital with a disciplined financial-intermediation model designed for scalable, measurable outcomes.
+      - generic [ref=e435]:
+        - generic [ref=e436]:
+          - paragraph [ref=e437]: Contact
+          - heading "Connect with Denham & Grey." [level=3] [ref=e438]
+        - article [ref=e439]:
+          - paragraph [ref=e440]: Office
+          - link "2nd Floor, Silverbird Galleria, Memorial Drive, Central Business District, Abuja, FCT" [ref=e441] [cursor=pointer]:
+            - /url: https://maps.app.goo.gl/bXinnSKpGqMmaVLa8
+        - article [ref=e442]:
+          - paragraph [ref=e443]: Telephone
+          - link "+234 (802) 517 7616" [ref=e444] [cursor=pointer]:
+            - /url: tel:+2348025177616
+          - link "+234 (706) 793 9313" [ref=e445] [cursor=pointer]:
+            - /url: tel:+2347067939313
+        - article [ref=e446]:
+          - paragraph [ref=e447]: Email
+          - link "info@denhamandgrey.com" [ref=e448] [cursor=pointer]:
+            - /url: mailto:info@denhamandgrey.com
+      - generic [ref=e449]:
+        - paragraph [ref=e450]: Let's put patient capital to work.
+        - link "Start a conversation" [ref=e451] [cursor=pointer]:
+          - /url: mailto:info@denhamandgrey.com?subject=Partnership%20enquiry
+          - text: Start a conversation
+          - generic [aria-hidden] [ref=e452]: ↗
+    - generic [ref=e453]:
+      - generic [ref=e454]:
+        - link "Denham & Grey" [ref=e455] [cursor=pointer]:
+          - /url: "#top"
+        - paragraph [ref=e456]: Patient capital for an inclusive, climate-resilient Africa.
+      - navigation "Footer navigation" [ref=e457]:
+        - link "Our Model" [ref=e458] [cursor=pointer]:
+          - /url: "#model"
+        - link "Our Process" [ref=e459] [cursor=pointer]:
+          - /url: "#process"
+        - link "Our People" [ref=e460] [cursor=pointer]:
+          - /url: "#people"
+        - link "Focus" [ref=e461] [cursor=pointer]:
+          - /url: "#focus"
+        - link "Impact" [ref=e462] [cursor=pointer]:
+          - /url: "#impact"
+        - link "Contact" [ref=e463] [cursor=pointer]:
+          - /url: "#contact"
+      - paragraph [ref=e464]: © 2026Denham & Grey
+  - alert [ref=e465]
